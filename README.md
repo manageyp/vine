@@ -37,7 +37,7 @@ pip install -r requirements.txt
 
 CREATE DATABASE IF NOT EXISTS vine DEFAULT CHARACTER SET utf8 DEFAULT COLLATE utf8_general_ci;
 
-mysql -u USER -p vine < sql/init.sql
+mysql -u USER -p vine < db/init.sql
 
 
 python manage.py migrate
